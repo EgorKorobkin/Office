@@ -1,3 +1,5 @@
+package ru.schoolbolt;
+
 public class Employee {
     private float success;
     private int points;
@@ -5,10 +7,8 @@ public class Employee {
     private Department department;
     private Task employeeTask;
 
-    public boolean getTask(){
-        if(employeeTask == null){
-            return true;
-        } else return false;
+    public boolean hasTask(){
+        return employeeTask != null;
     }
     public void addTask(Task task){
         employeeTask = task;
@@ -24,5 +24,4 @@ public class Employee {
             }
         }
     }
-
 }

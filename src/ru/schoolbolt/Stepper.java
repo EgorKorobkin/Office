@@ -1,3 +1,5 @@
+package ru.schoolbolt;
+
 import java.util.ArrayList;
 
 public class Stepper {
@@ -15,7 +17,8 @@ public class Stepper {
     }
     public boolean step(){
         if(tasks.size()<10){
-            Task task = new Task("DS",(int) (Math.random() * 5));
+            Task task = new Task();
+            task.setDurations("DS",(int) (Math.random() * 5));
             task.setDurations("FE",(int) (Math.random() * 5));
             task.setDurations("BE",(int) (Math.random() * 5));
             departments.get(0).sendTask(task); //кладет задачу первому отделу
@@ -34,8 +37,6 @@ public class Stepper {
         }
         return flag;
     }
-
     public void printResult(){
     }
-
 }

@@ -1,3 +1,4 @@
+package ru.schoolbolt;
 
 public class OfficeRun {
     public static void main(String[] args){
