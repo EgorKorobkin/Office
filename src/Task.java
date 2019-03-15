@@ -18,6 +18,10 @@ public class Task {
         iteration++;
     }
     public boolean isCompleted(){
+        /*как здесь должна возвращать количесво итераций задача в зависимости от отдела ?*/
+//        if(){
+//            return true;
+//        } else return false;
         return false;
     }
     public void setDurations(String department,int iteration){

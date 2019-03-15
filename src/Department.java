@@ -16,14 +16,7 @@ public class Department {
 
     public void sendTask(Task t){
         System.out.println("this is sendTask");
-
-        for(int i=0;i<employees.size();i++){
-            if(employees.get(i).getTask()){
-                if(tasksList.peekFirst()!=null){
-                    employees.get(i).addTask(tasksList.getFirst());
-                }
-            }
-        }
+        tasksList.addLast(t);
     }
     public ArrayList<Employee> getRating(){
         return new ArrayList<>();
@@ -37,13 +30,11 @@ public class Department {
     }
 
     public void step(){
-        for(int i = 0;i<employees.size();i++){
-            if(employees.get(i).getTask()){
-                System.out.println("this is here_0");
-                if(tasksList.peekFirst()!=null){
-                    System.out.println("this is here");
-                    employees.get(i).addTask(tasksList.getFirst());//get СЂР°Р·Сѓ РёР·РІР»РµРєР°РµС‚ РїРѕСЌС‚РѕРјСѓ РёСЃРєР»СЋС‡РµРЅРёРµ С‡С‚РѕР±РІ РїРѕСЃРјРѕС‚СЂРµС‚СЊ РЅР°РґРѕ РёСЃРїР»СЊР·РѕРІР°С‚СЊ peek
-                }
+        for(int i=0;i<employees.size();i++){
+            /*если сотрудник свободный и есьт задача в очереди то даем задачу сотруднику*/
+            if((employees.get(i).getTask()) && (tasksList.peekFirst()!=null)){
+                System.out.println("даем задачу");
+                employees.get(i).addTask(tasksList.getFirst());
             }
         }
         for(Employee e:employees){
@@ -51,3 +42,10 @@ public class Department {
         }
     }
 }
+//if(tasks.size()<10){
+//        Task task = new Task("DS",(int) (Math.random() * 5));
+//        task.setDurations("FE",(int) (Math.random() * 5));
+//        task.setDurations("BE",(int) (Math.random() * 5));
+//        departments.get(0).sendTask(task); //кладет задачу первому отделу
+//        tasks.add(task);
+//        }

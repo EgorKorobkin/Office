@@ -13,25 +13,26 @@ public class Stepper {
         departments.add(FE);
         departments.add(BE);
     }
-
-    public void stepper(){
-        for(Department d:departments){
-            d.step();
-        }
-    }
-
     public boolean step(){
         if(tasks.size()<10){
             Task task = new Task("DS",(int) (Math.random() * 5));
             task.setDurations("FE",(int) (Math.random() * 5));
             task.setDurations("BE",(int) (Math.random() * 5));
+            departments.get(0).sendTask(task); //кладет задачу первому отделу
             tasks.add(task);
-            departments.get(0).sendTask(task);
-            stepper();
-            return false;
-        }else {
-            return true;
         }
+        /*вызывает step у каждого отдела*/
+        for(Department d:departments){
+            d.step();
+        }
+        /*проверить все ли задачи выполнены если все выполнены то true*/
+        boolean flag = true;
+        for(Task b :tasks){
+            if(b.isCompleted()==false) {
+                flag = false;
+            }
+        }
+        return flag;
     }
 
     public void printResult(){

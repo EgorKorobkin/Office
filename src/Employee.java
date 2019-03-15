@@ -18,6 +18,11 @@ public class Employee {
         if(employeeTask!=null){
             employeeTask.incIteration();
         }
+        if(employeeTask!=null){
+            if(employeeTask.isCompleted()){
+                System.out.println("задача выполнена");
+            }
+        }
     }
 
 }
