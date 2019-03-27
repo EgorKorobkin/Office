@@ -1,33 +1,37 @@
 package ru.schoolbolt;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 
 public class Department {
     private LinkedList<Task> tasksList = new LinkedList<>();
     private Employee boss;
     private ArrayList<Employee> employees = new ArrayList<>();
     private String name;
-    private ArrayList<Department> observers = new ArrayList<>();
+    private Map<String,Department> observers = new HashMap<>();
 
-    public Department(int emp){
+    public Department(String departmentName, int emp){
+        this.name = departmentName;
         for(int i = 0;i<emp;i++){
             employees.add(new Employee());
         }
+        System.out.println("Создание отдела "+name);
     }
 
     public void sendTask(Task t){
         //если есть свободный сотрудник то отпралять ему если нет добовлять в список
-        boolean taskAdd = true;
-        for(Employee e:employees){
-            if(e.hasTask()){
-                e.addTask(t);
-                taskAdd = false;//отдает свободному сотруднику
-            }
-        }
-        if(taskAdd){
+//        boolean taskAdd = true;
+//        for(Employee e:employees){
+//            if(e.hasTask()){
+//                e.addTask(t);
+//                taskAdd = false;//отдает свободному сотруднику
+//            }
+//        }
+//        if(taskAdd){
             tasksList.addLast(t);//добавляет в лист
-        }
+//        }
         System.out.println("this is sendTask");
 
     }
@@ -35,23 +39,43 @@ public class Department {
         return new ArrayList<>();
     }
 
-    public void Subscribe(Department d){
-
+    public void Subscribe(Department d){ //добавляет слушателей(department)
+        observers.put(d.name, d);
+        /*обсерверы назодятся в map*/
     }
-    public void notify(Task task){
+
+    public void notify(Task task){ //передает задачу между отделами
+        /*обнулет итерцию*/
+        task.resetIteration();
+        /*сравниваю имена отделов если и передаю задачу следующему отделу */
+
+        if(task.getDepartment()=="DS"){
+            //предаю задачу из ds в fe
+            observers.get(1).sendTask(task);
+        } else if(task.getDepartment()=="FE"){
+            //передаю задачу из fe в be
+            observers.get(2).sendTask(task);
+        } //поменять на map
         //вызывается из емплой
     }
 
     public void step(){
         for(int i=0;i<employees.size();i++){
+            System.out.println("даем задачу");
             /*если сотрудник свободный и есьт задача в очереди то даем задачу сотруднику*/
             if((employees.get(i).hasTask()) && (tasksList.peekFirst()!=null)){
-                System.out.println("даем задачу");
+                System.out.println("дали задачу");
                 employees.get(i).addTask(tasksList.getFirst());
             }
         }
         for(Employee e:employees){
+            System.out.println("Вызываем step у всех сотрудников");
             e.step();
         }
     }
+
+    public String getName() {
+        return name;
+    }
 }
+/* отдел подписывается и подписан и когда приходит задача он отправляет ее всем */

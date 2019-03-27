@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3d2262af-0cdc-4d95-bf95-9f891108513f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/OfficeRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/Stepper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfficeRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/OfficeRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Stepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Stepper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Stepper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OfficeWork/ru/schoolbolt/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/schoolbolt/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/schoolbolt/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/schoolbolt/Stepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Stepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/schoolbolt/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/schoolbolt/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,18 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="212">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,11 +47,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
               </folding>
@@ -55,13 +59,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="510">
+              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <marker date="1553644622000" expanded="true" signature="764:980" ph="..." />
+                <marker date="1553644622000" expanded="true" signature="1568:1833" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,8 +78,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Stepper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+              <folding>
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/OfficeRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -106,14 +118,14 @@
         <option value="$PROJECT_DIR$/src/Employee.java" />
         <option value="$PROJECT_DIR$/src/OfficeRun.java" />
         <option value="$PROJECT_DIR$/src/ru/schoolbolt/OfficeRun.java" />
-        <option value="$PROJECT_DIR$/src/ru/schoolbolt/Task.java" />
         <option value="$PROJECT_DIR$/src/ru/schoolbolt/Employee.java" />
         <option value="$PROJECT_DIR$/src/ru/schoolbolt/Department.java" />
         <option value="$PROJECT_DIR$/src/ru/schoolbolt/Stepper.java" />
+        <option value="$PROJECT_DIR$/src/ru/schoolbolt/Task.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1284" />
@@ -125,8 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,10 +159,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552661852394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552968129026" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -209,7 +221,7 @@
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17222223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20634921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,7 +230,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20276497" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6466974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,54 +278,68 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <marker date="1553644622000" expanded="true" signature="764:980" ph="..." />
+            <marker date="1553644622000" expanded="true" signature="1568:1833" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/OfficeRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Stepper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding>
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Department.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/schoolbolt/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="212">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
           </folding>
         </state>
       </provider>
