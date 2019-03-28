@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Stepper {
     private ArrayList<Department> departments = new ArrayList<>();
     private ArrayList<Task> tasks = new ArrayList<>();
+    int i = 0;
 
     Stepper(){
         Department DS = new Department("DS",5);
@@ -21,13 +22,15 @@ public class Stepper {
 
     }
     public boolean step(){
+        System.out.println("Итерация №"+i);
+        i++; //это я проверяю сколько раз запускается step
         if(tasks.size()<10){
             Task task = new Task();
-            task.setDurations("DS",(int) (Math.random() * 5)+1);
-            task.setDurations("FE",(int) (Math.random() * 5)+1);
-            task.setDurations("BE",(int) (Math.random() * 5)+1);
+            task.setDurations("DS",5);
+            task.setDurations("FE",5);
+            task.setDurations("BE",5);
             departments.get(0).sendTask(task); //кладет задачу первому отделу
-            System.out.println("create task and add to listTask");
+            System.out.println("создает задачу и кладет в список ");
             task.setDepartment("DS");
 
             tasks.add(task);
@@ -38,9 +41,11 @@ public class Stepper {
         }
         /*проверить все ли задачи выполнены если все выполнены то true*/
         boolean flag = true;
-        for(Task b :tasks){
-            if(!b.isCompleted()) {
-                flag = false;
+        if(tasks.size()==10){
+            for(Task b :tasks){
+                if(!b.isCompleted()) {
+                    flag = false;
+                }
             }
         }
         return flag;
